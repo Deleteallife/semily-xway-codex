@@ -1,0 +1,11 @@
+{
+  "name": "semily_xway",
+  "url": "https://plugin.semily.ru/mcp",
+  "scopes": [
+    "mcp:use",
+    "offline_access"
+  ],
+  "oauth_client_id": "b7mFlRgJXJwBfF8DdGId8aCD4KvdwIr0",
+  "oauth_callback_port": 4321,
+  "oauth_callback_url": "http://localhost:4321/callback"
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Semily XWAY Studio"
+  short_description: "Анализ WB, пять обложек и непрерывные XWAY-тесты"
+  default_prompt: "Запусти полный цикл Semily XWAY для указанного артикула."
