@@ -4,7 +4,27 @@ Skill для [Codex](https://openai.com/codex): анализ конкурент�
 
 Версия для Claude Code — в отдельном репозитории [semily-xway-claude](https://github.com/Deleteallife/semily-xway-claude).
 
-## Установка
+## Установка одной командой
+
+Закройте Codex, затем выполните. Аккаунт GitHub и git не нужны.
+
+**Windows (PowerShell):**
+
+```bash
+irm https://raw.githubusercontent.com/Deleteallife/semily-xway-codex/main/bootstrap.ps1 | iex
+```
+
+**macOS / Linux:**
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/Deleteallife/semily-xway-codex/main/bootstrap.sh | bash
+```
+
+Команда скачает репозиторий во временную папку, установит skill, зарегистрирует MCP-сервер и откроет вход в браузере. От пользователя нужен только логин Semily. После входа перезапустите Codex и создайте новую задачу.
+
+> Команда выполняет скрипт из этого репозитория. Если политика компании это запрещает, используйте установку через git ниже.
+
+## Установка через git
 
 Закройте Codex, затем:
 
